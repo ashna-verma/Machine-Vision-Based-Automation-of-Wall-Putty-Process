@@ -1,0 +1,19 @@
+Here's the proposed procedure to create a wall putty robot using machine vision:
+
+Step 1: Collect wall images dataset
+To create a wall putty robot using machine vision, the first step is to collect a dataset of wall images that includes images of both rough and smooth walls. This dataset will be used to train the machine learning model to recognize the texture of the wall.
+
+Step 2: Preprocessing of the dataset 
+The collected dataset should be preprocessed to remove any irrelevant images, label the images as "rough" or "smooth", and resize them to a standard size.
+
+Step 3: Train the machine learning model
+Next, a machine learning model should be trained using the preprocessed dataset. This model should be trained to classify the wall images into either "rough" or "smooth".
+
+Step 4: Build the robot hardware
+After training the machine learning model, the next step is to build the hardware of the robot that includes a camera to capture the image of the wall and an arm to apply the putty.
+
+Step 5: Implement the machine vision algorithm
+The robot should be programmed to capture an image of the wall using the camera, then apply the machine learning algorithm to classify the texture of the wall as either "rough" or "smooth". Depending on the texture, the robot arm is programmed to apply scrubbing or polishing action, and then apply putty accordingly.
+
+Step 6: Test and refine the system
+Finally, the system should be tested with a variety of different walls to ensure that it performs accurately and reliably.
